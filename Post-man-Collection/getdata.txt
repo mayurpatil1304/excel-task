@@ -1,0 +1,9 @@
+curl --location 'http://127.0.0.1:8000/api/getdata' \
+--form 'job_title="Analyst"' \
+--form 'department="Sales"' \
+--form 'gender="Male"' \
+--form 'Country="United States"' \
+--form 'City="Chicago"' \
+--form 'from_hiring_date="41570"' \
+--form 'to_hiring_date="43527"' \
+--form 'sort_by="hire_date"'
